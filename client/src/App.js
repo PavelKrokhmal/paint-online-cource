@@ -1,7 +1,15 @@
+import React from 'react'
+import './styles/app.scss'
+import Toolbar from './components/Toolbar'
+import SettingsBar from './components/SettingsBar'
+import Canvas from './components/Canvas'
+
 function App() {
   return (
-    <div>
-      Working
+    <div className="app">
+      <Toolbar/>
+      <SettingsBar/>
+      <Canvas/>
     </div>
   );
 }
