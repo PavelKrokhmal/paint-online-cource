@@ -15,7 +15,7 @@ function App() {
             <SettingsBar/>
             <Canvas/>
           </Route>
-          <Redirect to={`f${(+new Date).toString(16)}`}/>
+          <Redirect to={`f${(+new Date()).toString(16)}`}/>
         </Switch>
       </div>
     </BrowserRouter>
